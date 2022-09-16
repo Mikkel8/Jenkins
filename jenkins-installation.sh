@@ -8,7 +8,7 @@ echo "Your Jenkins installation will begin now."
 
 sleep 2
 
-sudo yum install java-1.8.0-openjdk-devel -y
+sudo yum install java-11-openjdk -y
 
 if
  [ $? -ne 0]
